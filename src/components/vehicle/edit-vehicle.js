@@ -19,7 +19,6 @@ function UserEdit() {
   const params = useParams();
   const [emailError, setemailError] = useState("");
   const [oldPassStatus, setOldPasswordStatus] = useState(false);
-
   const [showLogout, setShowLogout] = useState(false);
   const [id, setId] = useState('');
   const [name, setName] = useState('');
@@ -27,7 +26,6 @@ function UserEdit() {
   const [catId, setCatId] = useState('');
   let [branchId, setBranchId] = useState();
   let [driverId, setDriverId] = useState();
-
   let [branch, setBranch] = useState([]);
   let [vehicle, setVehicle] = useState([]);
   let [vehicleCat, setVehicleCat] = useState([]);

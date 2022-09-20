@@ -22,7 +22,6 @@ function UserEdit() {
   const [emailError, setemailError] = useState("");
   const [oldpasswordError, setOldpasswordError] = useState("");
   const [oldPassStatus, setOldPasswordStatus] = useState(false);
-
   const [showLogout, setShowLogout] = useState(false);
   const [fname, setfname] = useState('');
   const [nic, setnic] = useState('');

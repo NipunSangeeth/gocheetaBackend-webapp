@@ -19,7 +19,6 @@ function UserEdit() {
   const params = useParams();
   const [emailError, setemailError] = useState("");
   const [oldPassStatus, setOldPasswordStatus] = useState(false);
-
   const [showLogout, setShowLogout] = useState(false);
   const [id, setId] = useState('');
   const [name, setName] = useState('');

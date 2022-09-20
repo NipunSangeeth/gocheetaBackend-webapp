@@ -19,7 +19,6 @@ function UserEdit() {
   const params = useParams();
   const [emailError, setemailError] = useState("");
   const [oldPassStatus, setOldPasswordStatus] = useState(false);
-
   const [showLogout, setShowLogout] = useState(false);
   const [fname, setfname] = useState('');
   const [nic, setnic] = useState('');
@@ -30,6 +29,7 @@ function UserEdit() {
   const [pass, setpassword] = useState('');
   const [conPass, setConPassword] = useState('');
   const [oldPass, setOldPassword] = useState('');
+
 
   React.useEffect(() => {
 

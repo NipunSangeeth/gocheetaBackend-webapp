@@ -26,7 +26,6 @@ function Register() {
     const [nicError, setNicError] = useState('');
     const [btnDisabled, setBtnDisabled] = useState(0);
     const [showLogout, setShowLogout] = useState(false);
-
     const [id, setId] = useState('');
     const [fname, setfname] = useState('');
     const [nic, setnic] = useState('');

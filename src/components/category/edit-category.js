@@ -15,6 +15,7 @@ import { BsPersonLinesFill } from "react-icons/bs";
 import LogoutModel from '../LogoutModel';
 
 function UserEdit() {
+
   const [data, setdata] = useState({});
   const [role, setRole] = useState([]);
   const [passError, setPassError] = useState("");

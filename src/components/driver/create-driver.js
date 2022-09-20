@@ -19,7 +19,6 @@ function UserEdit() {
   const params = useParams();
   const [emailError, setemailError] = useState("");
   const [oldPassStatus, setOldPasswordStatus] = useState(false);
-
   const [showLogout, setShowLogout] = useState(false);
   const [dId, setDid] = useState('');
   const [fname, setfname] = useState('');
@@ -35,6 +34,7 @@ function UserEdit() {
   let [vehicleId, setVehicleId] = useState();
   let [branch, setBranch] = useState([]);
   let [vehicle, setVehicle] = useState([]);
+
 
 
   React.useEffect(() => {

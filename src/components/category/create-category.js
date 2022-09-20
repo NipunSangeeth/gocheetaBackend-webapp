@@ -16,6 +16,7 @@ import Logout from '../Logout';
 
 function Register() {
 
+    s
     const [passwordError, setpasswordError] = useState("");
     const [logError, setlogError] = useState("");
     const [emailError, setemailError] = useState("");

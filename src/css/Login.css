@@ -1,0 +1,37 @@
+@media all and (min-width: 480px) {
+  .Login {
+    padding: 60px 0;
+  }
+
+  .Login form {
+    margin: 0 auto;
+    max-width: 320px;
+  }
+}
+
+body {
+  min-height: 100vh;
+  background: #ffa12c !important;
+}
+
+.p-5.m-auto.shadow-sm.rounded-lg.col-lg-5.col-md-6.col-sm-12 {
+  margin-top: 100px !important;
+  background-color: #8f29323b;
+  color: white;
+  width: 22%;
+  border-radius: 21px;
+}
+
+input#EmailInput {
+  border-radius: 31px;
+}
+
+input#exampleInputPassword1 {
+  border-radius: 30px;
+}
+
+.btn.btn-success.login.w-100 {
+  background-color: #033da6;
+  border: none;
+  border-radius: 30px;
+}
